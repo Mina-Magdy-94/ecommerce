@@ -1,0 +1,332 @@
+#container{
+    background-color: #F7ECDE;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(6,auto) ;
+    grid-template-rows:repeat(7,auto) ;
+    grid-template-areas:
+    "nav nav nav nav nav nav"
+    ". . fm fm . ."
+    ". . fm fm . ."
+    ". . fm fm . ."
+    ". . fm fm . ."
+    ". . fm fm . ."
+    "ft ft ft ft ft ft"     ;
+
+}
+/* ul{
+    width: 100vw;
+    height: 5vh;
+    background-color: #54BAB9;
+    grid-area: nav;
+}
+
+li{
+    display: inline-block;
+    color: white;
+} */
+
+.topnav {
+    position: absolute;
+    top:0vh;
+    left: 0vw;
+    overflow: hidden;
+    background-color: #54BAB9;
+    height: 6%;
+    width: 100%;
+    grid-area: nav;
+    color:#F7ECDE
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #9ED2C6;
+    color: white;
+  }
+  
+  .topnav #slogan{
+    position: relative;
+    float: left;
+    margin-left: 27vw;
+    margin-top: 0.5vh;
+    height: 100%;
+    background-color: transparent;
+    color:orange ;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+
+
+
+
+form{
+    position: absolute;
+    left: 33%;
+    top:18%;
+    grid-area: fm;
+    background-color: #E9DAC1;
+    border: 2px solid black;
+    height:55vh;
+    width: 32vw;
+}
+
+h3{
+    width: fit-content;
+    position: absolute;
+    top:0.25vh;
+    left: 40%;
+
+}
+
+
+footer{
+    position: absolute;
+    bottom:0vh ;
+    grid-area: ft; 
+    background-color: #54BAB9;
+    height:15% ;
+    width: 100%;
+    color: #F7ECDE;
+}
+
+#footerP1{
+    position: absolute;
+    left: 5%;
+    color: #F7ECDE
+  }
+  
+  #footerp2{
+    position: absolute;
+    left: 55%;
+    color: #F7ECDE
+  }
+
+
+
+
+#fnameLb{
+    position: absolute;
+    top:8vh ;
+    left: 4vw ;
+}
+
+#emailLb{
+    position: absolute;
+    top:14vh ;
+    left: 4vw ;
+}
+
+#passwordLb{
+    position: absolute;
+    top:20vh ;
+    left:4vw ;
+}
+
+#name{
+    position: absolute;
+    top: 8vh ;
+    left: 13vw ;
+}
+
+#email{
+    position: absolute;
+    top: 14vh ;
+    left: 13vw ; 
+}
+
+#password{
+    position: absolute;
+    top: 20vh ;
+    left: 13vw ; 
+}
+
+#genderLb{
+    position: absolute;
+    top:35vh ;
+    left:4vw ;
+}
+
+#maleLb{
+    position: absolute;
+    top:40vh ;
+    left: 6vw ;
+}
+
+#femaleLb{
+    position: absolute;
+    top: 40vh ;
+    left: 14vw ;
+}
+
+
+
+#male{
+    position: absolute;
+    top: 40vh ;
+    left: 0vw ;
+}
+
+#female{
+    position: absolute;
+    top: 40vh ;
+    left: 8vw ;
+}
+
+#submit{
+    position: absolute;
+    top: 47vh ;
+    left: 4vw ;
+}
+
+#reset{
+    position: absolute;
+    top: 47vh ;
+    left: 17vw ;
+}
+
+input{
+    width: 10vw;
+    position: absolute;
+}
+
+p{
+    color: red;
+}
+
+#nameP{
+    position: absolute;
+    top: 9vh ;
+    left: 13vw ;
+}
+
+#emailP{
+    position: absolute;
+    top: 15vh ;
+    left: 13vw ;
+}
+#passwordP{
+    position: absolute;
+    top: 21vh ;
+    left: 13vw ;
+}
+#genderP{
+    position: absolute;
+    top: 40vh ;
+    left: 4vw ;
+}
+
+#phoneLb{
+    position: absolute;
+    top: 26vh ;
+    left: 4vw ; 
+}
+
+#phone{
+    position: absolute;
+    top:26vh;
+    left:13vw; 
+}
+
+#phoneP{
+    position: absolute;
+    top: 28vh ;
+    left:13vw ;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* input{
+    width: 15vw;
+    position: absolute;
+    left: 10vw;
+    top: 0vh;
+}
+label{
+    width: 15vw;
+    position: absolute;
+    left: 10vw;
+    top: 0vh;
+}
+
+
+#malelb{
+    margin-left: 0.5vw;
+}
+
+#femalelb{
+    margin-left: 0.5vw;
+    
+}
+
+
+
+#submit {
+    margin-left: 25vw;
+}

@@ -1,0 +1,48 @@
+#parentContainer{
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+    grid-template-rows:repeat(3,fr) ;
+}
+
+
+
+#container{
+    background-color: wheat;
+    width: 30vw;
+    height: fit-content;
+    border: 2px solid black;
+    grid-area: ct;
+}
+
+.field{
+    margin: 3px;
+    border: 2px solid #ccc;
+    padding: 3px;
+    width: 20vw ;
+    border-radius: 5px;
+}
+
+#submit{
+    background-color: green;
+    color: white;
+    width: 15vw;
+}
+
+#reset{
+    background-color: red;
+    color: white;
+    width: 15vw;
+}
+div{
+    margin: 5px;
+}
+label{
+    margin-left: 5px;
+}
+p{
+    height: fit-content;
+    margin-top: 0px ;
+    margin-bottom: 1px ;
+    color: red;
+
+}

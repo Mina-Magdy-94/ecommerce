@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="Stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div id="parentContainer">
+    <div id="container">
+        <form>
+            <div>
+                <label for="">Name</label>
+                <input id="name" type="text" class="field" placeholder="name" >
+                <p id="nameP"></p>
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input  id="email" type="email" class="field" placeholder="Email">
+                <p id="emailP"></p>
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input id="password" type="password" class="field" placeholder="Password">
+                <p id="passwordP"></p>
+            </div>
+            <div id="gender">
+                <label>Gender</label>
+                <input id="male" type="radio" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input id="female" type="radio" name="gender" value="Female">
+                <label for="female">Female</label>
+                <p id="genderP"></p>
+            </div>
+            <div id="sport">
+                <label>Sports</label>
+
+                <input id="tennis" type="checkbox" name="sport" value="tennis">
+                <label for="tennis">Tennis</label>
+
+                <input id="running" type="checkbox" name="sport" value="running">
+                <label for="running">Running</label>
+
+                <input id="football" type="checkbox" name="sport" value="football">
+                <label for="football">Football</label>
+                <p id="sportP"></p>
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value=""></option>
+                    <option value="egypt">Egypt</option>
+                    <option value="sudan">Sudan</option>
+                    <option value="france">France</option>
+                    <option value="england">England</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                </select>
+                <p id="countryP"></p>
+            </div>
+            
+            <div>
+                <input id="submit" type="submit">
+                <input id="reset" type="reset">
+            </div>
+
+
+        </form>
+    </div>
+</div>
+    <script src="./validation.js"></script>
+</body>
+</html>
